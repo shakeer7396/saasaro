@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Rooms from './Components/Rooms';
-import BookingForm from './Components/BookingForm';
-import Login from './Components/Login';
+
+import Mycomponent from './Components/Mycomponent';
 
 function App() {
   return (
     <div className="App">
-      {/* <Rooms /> */}
-        {/* <BookingForm /> */}
-        <Login />
+      
+        <Mycomponent />
     </div>
   );
 }
